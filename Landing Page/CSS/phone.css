@@ -1,0 +1,54 @@
+body::before{
+    height:860px;
+}
+.header{
+    flex-direction: column;
+}
+.header .left{
+    padding:5px 20px;
+}
+.header .left img{
+    height: 30px;
+}
+.header .left div{
+    font-size: 7px;
+    line-height: 10px;
+}
+.header .mid{
+    margin:5px auto;
+}
+.header .mid .navbar li{
+    padding:3px 4px;
+    font-size: 10px;
+}
+.header .mid .navbar li a{
+    padding: 15px 3px;
+}
+.header .right{
+    margin:0px auto;
+    padding:6px 12px;
+}
+.btn{
+    margin: 0px 0px;
+    padding: 3px 5px;
+    font-size: 8px;
+}
+.container {
+    margin: 100px auto;
+    width: 80%;
+}
+.form-group input {
+    width: 150px;
+    padding: 4px;
+    font-size: 10px;
+    margin: 2px auto;
+}
+
+.container h1 {
+    font-size: 20px;
+    color:white;
+}
+
+.container button {
+    width: 150px;
+}

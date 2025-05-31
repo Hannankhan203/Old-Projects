@@ -1,0 +1,38 @@
+h1 {
+  font-size: 50px;
+}
+
+.para {
+  font-size: 16px;
+}
+
+.hero-img {
+  width: 60%;
+}
+
+.section-2{
+    gap: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.sub-sec p {
+  font-size: 16px;
+}
+
+.img-1 {
+  width: 18px;
+  height: 18px;
+}
+
+.img-2 {
+  width: 18px;
+  height: 18px;
+}
+
+.img-3 {
+  width: 18px;
+  height: 18px;
+}

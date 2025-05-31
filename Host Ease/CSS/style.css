@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 20px;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+    font-size: 20px;
+}
+
+a {
+    /* border: 2px solid black; */
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.sign-in {
+    padding: 5px 30px 5px 30px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.section-1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 1rem;
+}
+
+.left-section{
+    /* border: 2px solid black; */
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: start;
+    gap: 2rem;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.para {
+    font-size: 20px;
+}
+
+.trial-btn {
+    padding: 5px 30px 5px 30px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.hero-img {
+    background-image: url("../Images/Hero\ Section.PNG");
+    width: 40%;
+    height: 400px;
+    /* border: 2px solid black; */
+    background-position: center;
+    background-size: cover;
+    margin-right: 40px;
+}
+
+.section-2{
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+}
+
+.sub-sec{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h3{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.sub-sec p {
+    font-size: 18px;
+}
+
+.img-1{
+    background-image: url("../Images/Img\ 1.PNG");
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.img-2{
+    background-image: url("../Images/Img\ 2.PNG");
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.img-3{
+    background-image: url("../Images/Img\ 3.PNG");
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}

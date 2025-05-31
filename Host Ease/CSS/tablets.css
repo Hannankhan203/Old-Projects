@@ -1,0 +1,88 @@
+.nav-bar {
+  padding: 10px;
+}
+
+.logo {
+  font-size: 15px;
+}
+
+.nav-links {
+  gap: 1rem;
+  font-size: 14px;
+}
+
+a {
+  padding: 6px;
+}
+
+.sign-in {
+    padding: 5px 20px 5px 20px;
+}
+
+
+.section-1 {
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section {
+  padding: 8px;
+  width: 100%;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.para {
+  font-size: 14px;
+}
+
+.trial-btn{
+    padding: 5px 20px 5px 20px;
+}
+
+.hero-img {
+  width: 60%;
+  height: 250px;
+  margin-right: 0;
+}
+
+.section-2 {
+  padding: 10px;
+  gap: 10px;
+}
+
+.sub-sec {
+  padding: 8px;
+}
+
+h3 {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.sub-sec p {
+  font-size: 10px;
+}
+
+.img-1 {
+  width: 20px;
+  height: 20px;
+}
+
+.img-2 {
+  width: 20px;
+  height: 20px;
+}
+
+.img-3 {
+  width: 20px;
+  height: 20px;
+}

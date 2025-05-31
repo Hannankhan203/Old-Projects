@@ -1,0 +1,78 @@
+#navbar{
+    grid-template-columns: 2fr;
+    grid-gap: 0rem;
+}
+#navbar::before{
+    height:110px;
+}
+#navbar #logo{
+    margin:5px auto;
+    padding:0px 40px;
+}
+#navbar #logo img{
+    height: 30px;
+}
+#navbar .nav{
+    margin:0px auto;
+    padding:0px 40px;
+    padding-top:15px;
+}
+#navbar .nav li{
+    padding:0px 5px;
+    font-size: 10px;
+    margin:0px 6px;
+}
+#navbar .nav li a:hover{
+    font-size: 13px;
+}
+#navbar .search{
+    padding:0px 50px;
+}
+#navbar .search input{
+    padding:1px;
+}
+#navbar .search input::placeholder{
+    font-size: 10px;
+    padding:0px 4px;
+}
+#page{
+    grid-template-columns: 1fr;
+    grid-gap: 0rem;
+    margin-top:5px;
+    height:505px;
+}
+#page::before{
+    height:1000px;
+}
+#page .text{
+    margin:0;
+    padding-left:0px
+}
+#page .text .h-primary{
+    text-align: center;
+    font-size: 35px;
+    margin:10px 0px;
+    margin-top:20px;
+}
+#page .text p{
+    text-align: center;
+    padding:3px 0px;
+    font-size: 10px;
+}
+#page .text input{
+    padding:3px;
+    position:static;
+    width:90%;
+}
+#page .text input::placeholder{
+    font-size: 10px;
+    padding:0px 4px;
+}
+#page .text .btn{
+    padding:5px 20px;
+    position:static;
+    width:90%;
+}
+#page .img img{
+    height:250px;
+}
